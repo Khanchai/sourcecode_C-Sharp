@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,26 +10,26 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
-
-            	for(int i=1; i<=100; i++)
-	            {
- 		    if (i % 3 == 0 && i % 5 == 0)
-                    {
-                        System.Console.WriteLine("Fizz Buzz" + "<---" + i);
-                    }
-                    else if (i % 3 == 0)
-                    {
-                        System.Console.WriteLine("Fizz" + "<---" + i);
-                    }
-                    else if (i % 5 == 0)
-                    {  
-                        System.Console.WriteLine("Buzz" + "<---" + i);
-                    }
-                    else 
-                    {
-                        System.Console.WriteLine(i);
-                    }
-                System.Console.ReadKey();
+            for (int i = 1; i <= 100; i++)
+            {
+                if (i % 3 == 0 && i % 5 == 0)
+                {
+                    System.Console.WriteLine("Fizz Buzz" + "<---" + i);
+                }
+                else if (i % 3 == 0)
+                {
+                    System.Console.WriteLine("Fizz" + "<---" + i);
+                }
+                else if (i % 5 == 0)
+                {
+                    System.Console.WriteLine("Buzz" + "<---" + i);
+                }
+                else
+                {
+                    System.Console.WriteLine(i);
+                }
+            }
+            System.Console.ReadKey();
         }
     }
 }
